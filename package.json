@@ -1,0 +1,24 @@
+{
+  "name": "audio-transcription-web-app",
+  "version": "1.0.0",
+  "description": "A simple Node.js and Express web app for uploading audio files and transcribing them with the OpenAI API.",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "check": "node --check server.js"
+  },
+  "keywords": [
+    "audio",
+    "transcription",
+    "openai",
+    "express"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "express": "^5.1.0",
+    "multer": "^2.1.1",
+    "openai": "^5.20.0"
+  }
+}
